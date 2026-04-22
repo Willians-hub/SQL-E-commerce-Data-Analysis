@@ -1,1 +1,33 @@
-file:///Users/williansnascimento/Downloads/sales_dashboard_1.html
+-- 📊 SQL E-commerce Analysis
+
+-- 1. Total Revenue
+SELECT 
+    SUM(total_amount) AS total_revenue
+FROM orders;
+
+
+-- 2. Top Selling Products
+SELECT 
+    product_name,
+    SUM(quantity) AS total_sold
+FROM order_items
+GROUP BY product_name
+ORDER BY total_sold DESC;
+
+
+-- 3. Monthly Sales Trend
+SELECT 
+    DATE_TRUNC('month', order_date) AS month,
+    SUM(total_amount) AS revenue
+FROM orders
+GROUP BY month
+ORDER BY month;
+
+
+-- 4. Revenue by Country
+SELECT 
+    country,
+    SUM(total_amount) AS revenue
+FROM orders
+GROUP BY country
+ORDER BY revenue DESC;
