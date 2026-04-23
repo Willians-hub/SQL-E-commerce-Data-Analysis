@@ -1,8 +1,7 @@
--- 📊 SQL E-commerce Analysis
+-- 📊 E-commerce SQL Analysis
 
 -- 1. Total Revenue
-SELECT 
-    SUM(total_amount) AS total_revenue
+SELECT SUM(total_amount) AS total_revenue
 FROM orders;
 
 
