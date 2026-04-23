@@ -46,3 +46,4 @@ country = df.groupby("Country")["Sales"].sum().reset_index()
 st.plotly_chart(
     px.bar(country, x="Country", y="Sales", title="Revenue by Country")
 )
+
