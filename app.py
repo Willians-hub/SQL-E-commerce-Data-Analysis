@@ -5,7 +5,7 @@ import plotly.express as px
 
 # Load data (Streamlit Cloud safe path)
 BASE_DIR = Path(__file__).resolve().parent
-df = pd.read_csv(BASE_DIR / "data" / "train.csv")
+df = pd.read_csv("data/train.csv")
 
 st.title("📊 E-commerce Sales Dashboard")
 
