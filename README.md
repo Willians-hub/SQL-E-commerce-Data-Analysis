@@ -1,18 +1,31 @@
-# 📊 SQL E-commerce Analysis
+# 📊 E-commerce Sales Dashboard (Streamlit)
 
-This project explores e-commerce sales data using SQL to generate business insights.
+Dashboard interativo desenvolvido com **Streamlit + Pandas + Plotly** para análise de vendas de e-commerce.
 
-## 📊 Key Questions
-- What is the total revenue?
-- Which products sell the most?
-- How do sales vary over time?
-- Which countries generate the most revenue?
+---
 
-## 🛠️ Tools
-- SQL
-- PostgreSQL / MySQL
+## 🚀 Demo
+https://seu-app.streamlit.app
 
-## 📈 Insights
-- Top products drive most of the revenue
-- Sales vary significantly by country
-- Monthly trends show seasonal patterns
+---
+
+## 📌 Funcionalidades
+
+- KPIs de receita total e número de pedidos
+- Análise de vendas mensais
+- Top produtos mais vendidos
+- Receita por país
+- Visualizações interativas
+
+---
+
+## 🛠️ Tecnologias
+
+- Python
+- Streamlit
+- Pandas
+- Plotly
+
+---
+
+## 📂 Estrutura
