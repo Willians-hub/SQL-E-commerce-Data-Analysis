@@ -1,6 +1,6 @@
 # 📊 E-commerce Sales Dashboard
 
-Dashboard interativo desenvolvido com Streamlit para análise de vendas de e-commerce.
+Interactive dashboard built with Streamlit for e-commerce sales analysis.
 
 ---
 
@@ -10,17 +10,17 @@ https://sql-e-commerce-data-analysis-mssb4a8akeyubhsgmyvksa.streamlit.app/
 
 ---
 
-## 📌 Funcionalidades
+## 📌 Features
 
-* KPIs de receita total
-* Número de pedidos
-* Vendas mensais
-* Top produtos
-* Receita por país
+* Total revenue KPIs
+* Number of orders
+* Monthly sales analysis
+* Top-selling products
+* Revenue by country
 
 ---
 
-## 🛠️ Tecnologias
+## 🛠️ Technologies
 
 * Python
 * Streamlit
@@ -29,7 +29,7 @@ https://sql-e-commerce-data-analysis-mssb4a8akeyubhsgmyvksa.streamlit.app/
 
 ---
 
-## 📂 Estrutura
+## 📂 Project Structure
 
 ```
 ├── app.py
@@ -40,10 +40,11 @@ https://sql-e-commerce-data-analysis-mssb4a8akeyubhsgmyvksa.streamlit.app/
 
 ---
 
-## ▶️ Como rodar localmente
+## ▶️ How to Run Locally
 
 ```
 pip install -r requirements.txt
 streamlit run app.py
 ```
+
 
